@@ -13,7 +13,7 @@ enum Project: string
     public function getDisplayName(): string
     {
         return match ($this) {
-            self::Psl => 'azjezz/psl',
+            self::Psl => 'php-standard-library/php-standard-library',
             self::WordPress => 'wordpress-develop',
             self::Magento => 'magento/magento2',
         };
@@ -25,7 +25,7 @@ enum Project: string
     public function getRepo(): string
     {
         return match ($this) {
-            self::Psl => 'https://github.com/azjezz/psl.git',
+            self::Psl => 'https://github.com/php-standard-library/php-standard-library.git',
             self::WordPress => 'https://github.com/WordPress/wordpress-develop.git',
             self::Magento => 'https://github.com/magento/magento2.git',
         };
@@ -37,7 +37,7 @@ enum Project: string
     public function getRef(): string
     {
         return match ($this) {
-            self::Psl => 'next',
+            self::Psl => '5.5.x',
             self::WordPress => 'trunk',
             self::Magento => '2.4-develop',
         };
