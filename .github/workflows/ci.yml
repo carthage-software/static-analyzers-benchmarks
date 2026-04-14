@@ -30,7 +30,7 @@ jobs:
 
       - uses: nhedger/setup-mago@v1
         with:
-          version: 1.10.0
+          version: 1.20.0
 
       - run: composer install --no-interaction
 
