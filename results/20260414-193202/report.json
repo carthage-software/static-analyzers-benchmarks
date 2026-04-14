@@ -1,0 +1,587 @@
+{
+    "generated": "2026-04-14 23:11:48",
+    "kinds": {
+        "Formatters": [
+            "Formatter"
+        ],
+        "Linters": [
+            "Linter"
+        ],
+        "Analyzers": [
+            "Cold",
+            "Hot"
+        ]
+    },
+    "projects": {
+        "psl": {
+            "Formatter": [
+                {
+                    "tool": "Mago Fmt 1.20.0",
+                    "mean": 0.057043433,
+                    "stddev": 0.01531383,
+                    "min": 0.051704209,
+                    "max": 0.102983167,
+                    "memory_mb": 82.3,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago Fmt 1.10.0",
+                    "mean": 0.104258946,
+                    "stddev": 0.001506595,
+                    "min": 0.1016075,
+                    "max": 0.106795459,
+                    "memory_mb": 98.3,
+                    "relative": 1.8,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago Fmt 1.7.0",
+                    "mean": 0.149919299,
+                    "stddev": 0.137737103,
+                    "min": 0.102609459,
+                    "max": 0.563123083,
+                    "memory_mb": 94.7,
+                    "relative": 2.6,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Pretty PHP 0.4.95",
+                    "mean": 1.637562408,
+                    "stddev": 0.015910078,
+                    "min": 1.628578875,
+                    "max": 1.685056541,
+                    "memory_mb": 60.8,
+                    "relative": 28.7,
+                    "timed_out": false
+                }
+            ],
+            "Linter": [
+                {
+                    "tool": "Mago Lint 1.20.0",
+                    "mean": 0.052022099,
+                    "stddev": 0.000427161,
+                    "min": 0.051101542,
+                    "max": 0.052867166,
+                    "memory_mb": 50.4,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago Lint 1.7.0",
+                    "mean": 0.10337145,
+                    "stddev": 0.000811521,
+                    "min": 0.102261042,
+                    "max": 0.105148125,
+                    "memory_mb": 65.2,
+                    "relative": 2.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago Lint 1.10.0",
+                    "mean": 0.103492433,
+                    "stddev": 0.000547122,
+                    "min": 0.1027925,
+                    "max": 0.104585458,
+                    "memory_mb": 65.0,
+                    "relative": 2.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHPCS 3.13.0",
+                    "mean": 2.252763883,
+                    "stddev": 0.020747858,
+                    "min": 2.239504958,
+                    "max": 2.295509834,
+                    "memory_mb": 56.6,
+                    "relative": 43.3,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHP-CS-Fixer 3.75.0",
+                    "mean": 3.016360954,
+                    "stddev": 0.241318529,
+                    "min": 2.907028667,
+                    "max": 3.7375603330000002,
+                    "memory_mb": 454.4,
+                    "relative": 58.0,
+                    "timed_out": false
+                }
+            ],
+            "Cold": [
+                {
+                    "tool": "Mago 1.20.0",
+                    "mean": 0.271621533,
+                    "stddev": 0.045494455,
+                    "min": 0.253316792,
+                    "max": 0.408044333,
+                    "memory_mb": 352.5,
+                    "relative": 2.6,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.10.0",
+                    "mean": 0.308819504,
+                    "stddev": 0.002122018,
+                    "min": 0.30669175,
+                    "max": 0.314439208,
+                    "memory_mb": 375.4,
+                    "relative": 3.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.7.0",
+                    "mean": 0.309139899,
+                    "stddev": 0.002200106,
+                    "min": 0.305826083,
+                    "max": 0.312541917,
+                    "memory_mb": 379.5,
+                    "relative": 3.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHPStan 2.1.39",
+                    "mean": 4.863173599,
+                    "stddev": 0.045731196,
+                    "min": 4.760877625,
+                    "max": 4.96123225,
+                    "memory_mb": 1685.6,
+                    "relative": 46.5,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHPStan 2.1.47",
+                    "mean": 4.879313433,
+                    "stddev": 0.039583755,
+                    "min": 4.8403104169999995,
+                    "max": 4.94948725,
+                    "memory_mb": 1493.6,
+                    "relative": 46.7,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Psalm 6.15.1",
+                    "mean": 10.202028266,
+                    "stddev": 0.095376071,
+                    "min": 10.102777792,
+                    "max": 10.4536775,
+                    "memory_mb": 3410.3,
+                    "relative": 97.7,
+                    "timed_out": false
+                }
+            ],
+            "Hot": [
+                {
+                    "tool": "PHPStan 2.1.39",
+                    "mean": 0.762613262,
+                    "stddev": 0.024218529,
+                    "min": 0.724350167,
+                    "max": 0.77972375,
+                    "memory_mb": 121.8,
+                    "relative": 7.3,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHPStan 2.1.47",
+                    "mean": 0.778838,
+                    "stddev": 0.001655357,
+                    "min": 0.776302209,
+                    "max": 0.782270125,
+                    "memory_mb": 119.7,
+                    "relative": 7.4,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Psalm 6.15.1",
+                    "mean": 6.971966304,
+                    "stddev": 0.042149565,
+                    "min": 6.899459416,
+                    "max": 7.050597917,
+                    "memory_mb": 3400.6,
+                    "relative": 66.5,
+                    "timed_out": false
+                }
+            ]
+        },
+        "wordpress": {
+            "Formatter": [
+                {
+                    "tool": "Mago Fmt 1.20.0",
+                    "mean": 0.430403053,
+                    "stddev": 0.018614886,
+                    "min": 0.416242417,
+                    "max": 0.485179458,
+                    "memory_mb": 627.8,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago Fmt 1.7.0",
+                    "mean": 0.43429277,
+                    "stddev": 0.017153039,
+                    "min": 0.41775225,
+                    "max": 0.468906583,
+                    "memory_mb": 647.6,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago Fmt 1.10.0",
+                    "mean": 0.438400924,
+                    "stddev": 0.024075079,
+                    "min": 0.416435208,
+                    "max": 0.480306459,
+                    "memory_mb": 655.5,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Pretty PHP 0.4.95",
+                    "mean": 27.460086499,
+                    "stddev": 0.080974592,
+                    "min": 27.329099083,
+                    "max": 27.634132958,
+                    "memory_mb": 147.6,
+                    "relative": 63.8,
+                    "timed_out": false
+                }
+            ],
+            "Linter": [
+                {
+                    "tool": "Mago Lint 1.20.0",
+                    "mean": 0.855086258,
+                    "stddev": 0.034512954,
+                    "min": 0.83082575,
+                    "max": 0.938280166,
+                    "memory_mb": 696.9,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago Lint 1.7.0",
+                    "mean": 1.001709912,
+                    "stddev": 0.020429633,
+                    "min": 0.987768875,
+                    "max": 1.045017583,
+                    "memory_mb": 700.4,
+                    "relative": 1.2,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago Lint 1.10.0",
+                    "mean": 1.022976133,
+                    "stddev": 0.023972656,
+                    "min": 0.988109084,
+                    "max": 1.047091333,
+                    "memory_mb": 697.1,
+                    "relative": 1.2,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHP-CS-Fixer 3.75.0",
+                    "mean": 34.127193566,
+                    "stddev": 0.110790211,
+                    "min": 33.90371825,
+                    "max": 34.289869791,
+                    "memory_mb": 648.2,
+                    "relative": 39.9,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHPCS 3.13.0",
+                    "mean": 0.0,
+                    "stddev": 0.0,
+                    "min": 0.0,
+                    "max": 0.0,
+                    "memory_mb": null,
+                    "relative": 1.0,
+                    "timed_out": true
+                }
+            ],
+            "Cold": [
+                {
+                    "tool": "Mago 1.20.0",
+                    "mean": 1.513681316,
+                    "stddev": 0.067514108,
+                    "min": 1.441082875,
+                    "max": 1.65576075,
+                    "memory_mb": 1023.1,
+                    "relative": 14.5,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.7.0",
+                    "mean": 2.186373687,
+                    "stddev": 0.103186789,
+                    "min": 2.021071208,
+                    "max": 2.374048,
+                    "memory_mb": 1159.0,
+                    "relative": 20.9,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.10.0",
+                    "mean": 2.295605949,
+                    "stddev": 0.105332971,
+                    "min": 2.172267083,
+                    "max": 2.441398584,
+                    "memory_mb": 1098.9,
+                    "relative": 22.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Psalm 6.15.1",
+                    "mean": 11.525330245,
+                    "stddev": 0.048426515,
+                    "min": 11.438175708,
+                    "max": 11.591120375,
+                    "memory_mb": 4003.7,
+                    "relative": 110.3,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHPStan 2.1.47",
+                    "mean": 55.862970545,
+                    "stddev": 0.40133104,
+                    "min": 55.30960325,
+                    "max": 56.499992167,
+                    "memory_mb": 6394.6,
+                    "relative": 534.7,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHPStan 2.1.39",
+                    "mean": 69.47725812,
+                    "stddev": 0.274477631,
+                    "min": 69.129281125,
+                    "max": 69.891589666,
+                    "memory_mb": 7254.3,
+                    "relative": 665.0,
+                    "timed_out": false
+                }
+            ],
+            "Hot": [
+                {
+                    "tool": "PHPStan 2.1.47",
+                    "mean": 3.320772616,
+                    "stddev": 0.398532087,
+                    "min": 3.162740542,
+                    "max": 4.513978833,
+                    "memory_mb": 822.1,
+                    "relative": 31.8,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Psalm 6.15.1",
+                    "mean": 7.957959616,
+                    "stddev": 0.046370764,
+                    "min": 7.906969375,
+                    "max": 8.056945083,
+                    "memory_mb": 3920.5,
+                    "relative": 76.1,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHPStan 2.1.39",
+                    "mean": 17.917089396,
+                    "stddev": 0.051856755,
+                    "min": 17.839443625,
+                    "max": 18.042339667,
+                    "memory_mb": 913.8,
+                    "relative": 171.4,
+                    "timed_out": false
+                }
+            ]
+        },
+        "magento": {
+            "Formatter": [
+                {
+                    "tool": "Mago Fmt 1.7.0",
+                    "mean": 1.5901543500000002,
+                    "stddev": 0.015701519,
+                    "min": 1.5750893750000001,
+                    "max": 1.6321877919999999,
+                    "memory_mb": 700.4,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago Fmt 1.10.0",
+                    "mean": 1.597139387,
+                    "stddev": 0.025573225,
+                    "min": 1.5777882920000001,
+                    "max": 1.6693151670000002,
+                    "memory_mb": 711.1,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago Fmt 1.20.0",
+                    "mean": 1.6524268659999999,
+                    "stddev": 0.229531976,
+                    "min": 1.527141459,
+                    "max": 2.31952375,
+                    "memory_mb": 482.1,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Pretty PHP 0.4.95",
+                    "mean": 58.945558783,
+                    "stddev": 0.143307966,
+                    "min": 58.789142875,
+                    "max": 59.307597958,
+                    "memory_mb": 118.1,
+                    "relative": 37.1,
+                    "timed_out": false
+                }
+            ],
+            "Linter": [
+                {
+                    "tool": "Mago Lint 1.20.0",
+                    "mean": 1.398053637,
+                    "stddev": 0.084505338,
+                    "min": 1.301021584,
+                    "max": 1.556562625,
+                    "memory_mb": 391.0,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago Lint 1.10.0",
+                    "mean": 1.579667362,
+                    "stddev": 0.016613418,
+                    "min": 1.561635333,
+                    "max": 1.624261625,
+                    "memory_mb": 589.7,
+                    "relative": 1.1,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago Lint 1.7.0",
+                    "mean": 1.58880827,
+                    "stddev": 0.020879257,
+                    "min": 1.570881167,
+                    "max": 1.629681334,
+                    "memory_mb": 590.5,
+                    "relative": 1.1,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHPCS 3.13.0",
+                    "mean": 83.962988066,
+                    "stddev": 0.606645619,
+                    "min": 83.591764333,
+                    "max": 85.612630375,
+                    "memory_mb": 451.5,
+                    "relative": 60.1,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHP-CS-Fixer 3.75.0",
+                    "mean": 91.928508895,
+                    "stddev": 0.325718537,
+                    "min": 91.00472875,
+                    "max": 92.240090583,
+                    "memory_mb": 701.8,
+                    "relative": 65.8,
+                    "timed_out": false
+                }
+            ],
+            "Cold": [
+                {
+                    "tool": "Mago 1.10.0",
+                    "mean": 3.846828729,
+                    "stddev": 0.059002784,
+                    "min": 3.7435852499999998,
+                    "max": 3.948406709,
+                    "memory_mb": 2423.9,
+                    "relative": 35.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.7.0",
+                    "mean": 3.894168241,
+                    "stddev": 0.044125555,
+                    "min": 3.838337166,
+                    "max": 3.95747,
+                    "memory_mb": 2722.0,
+                    "relative": 35.4,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.20.0",
+                    "mean": 3.9044766539999998,
+                    "stddev": 0.100014545,
+                    "min": 3.7927099589999997,
+                    "max": 4.095432584,
+                    "memory_mb": 2117.0,
+                    "relative": 35.5,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHPStan 2.1.47",
+                    "mean": 98.615901583,
+                    "stddev": 0.183494899,
+                    "min": 98.362466916,
+                    "max": 98.993227917,
+                    "memory_mb": 6555.1,
+                    "relative": 897.3,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHPStan 2.1.39",
+                    "mean": 196.841945579,
+                    "stddev": 0.239759823,
+                    "min": 196.475071958,
+                    "max": 197.196369291,
+                    "memory_mb": 7250.8,
+                    "relative": 1791.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Psalm 6.15.1",
+                    "mean": 0.0,
+                    "stddev": 0.0,
+                    "min": 0.0,
+                    "max": 0.0,
+                    "memory_mb": null,
+                    "relative": 1.0,
+                    "timed_out": true
+                }
+            ],
+            "Hot": [
+                {
+                    "tool": "PHPStan 2.1.47",
+                    "mean": 39.707150416,
+                    "stddev": 0.35065269,
+                    "min": 39.521434458,
+                    "max": 40.750187291,
+                    "memory_mb": 4266.4,
+                    "relative": 222.1,
+                    "timed_out": false
+                },
+                {
+                    "tool": "PHPStan 2.1.39",
+                    "mean": 140.705507991,
+                    "stddev": 0.232388845,
+                    "min": 140.317265833,
+                    "max": 141.238485333,
+                    "memory_mb": 4264.6,
+                    "relative": 787.1,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Psalm 6.15.1",
+                    "mean": 0.0,
+                    "stddev": 0.0,
+                    "min": 0.0,
+                    "max": 0.0,
+                    "memory_mb": null,
+                    "relative": 1.0,
+                    "timed_out": true
+                }
+            ]
+        }
+    }
+}
