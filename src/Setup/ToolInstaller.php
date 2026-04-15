@@ -29,6 +29,7 @@ final readonly class ToolInstaller
      * @var list<array{non-empty-string, non-empty-string, non-empty-string}>
      */
     private const array PACKAGES = [
+        ['mago',         'carthage-software/mago',    '1.20.1'],
         ['mago',         'carthage-software/mago',    '1.20.0'],
         ['mago',         'carthage-software/mago',    '1.10.0'],
         ['mago',         'carthage-software/mago',    '1.7.0'],
