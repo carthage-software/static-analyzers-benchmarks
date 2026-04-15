@@ -1,0 +1,149 @@
+{
+    "generated": "2026-04-15 02:36:43",
+    "kinds": {
+        "Formatters": [
+            "Formatter"
+        ],
+        "Linters": [
+            "Linter"
+        ],
+        "Analyzers": [
+            "Cold",
+            "Hot"
+        ]
+    },
+    "projects": {
+        "psl": {
+            "Cold": [
+                {
+                    "tool": "Mago 1.20.0",
+                    "mean": 0.261521358,
+                    "stddev": 0.015306177,
+                    "min": 0.254424125,
+                    "max": 0.307328083,
+                    "memory_mb": 349.8,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.20.1",
+                    "mean": 0.276415625,
+                    "stddev": 0.033944058,
+                    "min": 0.254882125,
+                    "max": 0.358833,
+                    "memory_mb": 353.8,
+                    "relative": 1.1,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.10.0",
+                    "mean": 0.3079937,
+                    "stddev": 0.001956258,
+                    "min": 0.304863916,
+                    "max": 0.311547709,
+                    "memory_mb": 379.6,
+                    "relative": 1.2,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.7.0",
+                    "mean": 0.309242904,
+                    "stddev": 0.001873032,
+                    "min": 0.306785,
+                    "max": 0.313167958,
+                    "memory_mb": 384.3,
+                    "relative": 1.2,
+                    "timed_out": false
+                }
+            ]
+        },
+        "wordpress": {
+            "Cold": [
+                {
+                    "tool": "Mago 1.20.1",
+                    "mean": 1.4648166790000001,
+                    "stddev": 0.045707738,
+                    "min": 1.427850417,
+                    "max": 1.533138084,
+                    "memory_mb": 1045.5,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.20.0",
+                    "mean": 1.491255724,
+                    "stddev": 0.049773509,
+                    "min": 1.428147834,
+                    "max": 1.582008041,
+                    "memory_mb": 1053.9,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.7.0",
+                    "mean": 2.133316745,
+                    "stddev": 0.092595977,
+                    "min": 2.041343292,
+                    "max": 2.248394666,
+                    "memory_mb": 1193.0,
+                    "relative": 1.5,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.10.0",
+                    "mean": 2.2209090160000002,
+                    "stddev": 0.062716892,
+                    "min": 2.19123625,
+                    "max": 2.403569625,
+                    "memory_mb": 1068.1,
+                    "relative": 1.5,
+                    "timed_out": false
+                }
+            ]
+        },
+        "magento": {
+            "Cold": [
+                {
+                    "tool": "Mago 1.10.0",
+                    "mean": 3.8774425580000003,
+                    "stddev": 0.020213201,
+                    "min": 3.83652975,
+                    "max": 3.897181958,
+                    "memory_mb": 2451.2,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.7.0",
+                    "mean": 3.934811387,
+                    "stddev": 0.063422071,
+                    "min": 3.881488208,
+                    "max": 4.052759417,
+                    "memory_mb": 2672.6,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.20.1",
+                    "mean": 3.947261183,
+                    "stddev": 0.090934312,
+                    "min": 3.882444209,
+                    "max": 4.090195458,
+                    "memory_mb": 2074.6,
+                    "relative": 1.0,
+                    "timed_out": false
+                },
+                {
+                    "tool": "Mago 1.20.0",
+                    "mean": 3.988658741,
+                    "stddev": 0.082481309,
+                    "min": 3.9293403749999998,
+                    "max": 4.1960039160000004,
+                    "memory_mb": 2028.0,
+                    "relative": 1.0,
+                    "timed_out": false
+                }
+            ]
+        }
+    }
+}
